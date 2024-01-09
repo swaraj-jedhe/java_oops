@@ -6,8 +6,9 @@ public class mains {
 		
 		gmail gmail=new gmail();
 		gmail.getusername();
-		System.out.println(gmail.getusername());
+		System.out.println("usernme is :"+gmail.getusername());
+		System.out.println("old password "+gmail.getpassword() );
 		gmail.setpassword("sjedhe@123");
-		System.out.println(gmail.getpassword());
+		System.out.println(" new password is : "+gmail.getpassword());
 	}
 }
