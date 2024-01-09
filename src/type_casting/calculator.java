@@ -1,5 +1,9 @@
 package type_casting;
 
-public class calculator {
+public abstract class calculator {
 
+	
+		abstract void add(int a, int b);
+	
+	
 }
