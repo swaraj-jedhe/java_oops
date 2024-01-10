@@ -12,7 +12,6 @@ public class mainclass {
 		sample sample =(sample)run;
 		System.out.println(sample.d);
 		sample.test();
-	
 		
 	}
 }
