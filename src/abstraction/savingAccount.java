@@ -15,7 +15,7 @@ public class savingAccount implements account {
 		
 	}
 	
-	
+	@Override
 	public void deposite(int amt) {
 		
 		System.out.println("depositing ");
@@ -29,7 +29,7 @@ public class savingAccount implements account {
 	public void withdrawn(int amt) {
 		System.out.println("withdrawing ");
 		accBal=accBal-amt;
-		System.out.println("withdrawing successfully "+accBal);
+		System.out.println("withdrawing successfully "+amt);
 	}
 
 	@Override

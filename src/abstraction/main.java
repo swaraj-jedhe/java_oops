@@ -6,10 +6,10 @@ public class main {
 		
 		System.out.println("prgram started");
 		manager m1= new manager();
-		account a1 =m1.getaccountinstance('s');
+		account a1 =m1.getaccountinstance('l');
 		a1.deposite(3000);
 		
-		a1.withdrawn(1000);
+		a1.withdrawn(2000);
 		a1.checkbal();
 		
 	}
